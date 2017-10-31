@@ -6,7 +6,7 @@ my_username = "user123"
 my_password = "password123"
 
 try:
-	import mechanize
+    import mechanize
 except ImportError:
     import traceback
     import sys
